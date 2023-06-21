@@ -22,6 +22,7 @@ body{
     background-image:url(https://cdn.pixabay.com/photo/2014/12/15/15/36/blue-569222_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: fixed;
     color: black;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -149,6 +150,7 @@ body{
         overflow-y: scroll;
     }
     .user-form{
+        top: 10%;
         max-width: 300px;
     }
     .card{
