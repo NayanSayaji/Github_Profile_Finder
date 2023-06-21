@@ -28,7 +28,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100dvh;
     overflow: hidden;
     margin:0;
 }
@@ -145,16 +145,20 @@ body{
 /* responsive queries */
 
 @media (max-width: 500px) {
+    body{
+        overflow-y: scroll;
+    }
     .user-form{
-        max-width: 350px;
+        max-width: 300px;
     }
     .card{
+        max-width: 300px;
         flex-direction: column;
         align-items: center;
     }
 
     .user-info{
-        max-width: 400px;
+        max-width: 300px;
     }
 
     .user-info ul li{
