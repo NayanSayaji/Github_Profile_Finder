@@ -35,6 +35,7 @@ body{
 }
 
 .user-form{
+    margin-top: 10%;
     width: 100%;
     max-width: 800px;
 }
